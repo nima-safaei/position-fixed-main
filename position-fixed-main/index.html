@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: tahoma;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        header>p {
+            text-align: center;
+            color: #a2a2a2;
+        }
+
+        nav {
+            background-color: #aaa;
+            position: sticky;
+            top: 0px;
+            z-index: 99;
+        }
+
+        nav>ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav>ul>li {
+            flex: 1;
+        }
+
+        nav a {
+            display: block;
+            text-align: center;
+            padding: 10px 15px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            gap: 10px;
+        }
+
+        main>section {
+            flex: 1
+        }
+
+        footer {
+            background-color: #333;
+            color: #f2f2f2;
+            padding: 25px;
+            text-align: center;
+        }
+
+        div#top {
+            position: fixed;
+            bottom: 25px;
+            left: 5px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(100, 100, 100, .8);
+        }
+
+        div#top>a>i {
+            font-size: 2.7rem;
+        }
+
+        div#contact {
+            position: fixed;
+            bottom: 25px;
+            right: 5px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(100, 100, 100, .8);
+        }
+
+        div#contact>a>i {
+            font-size: 2.7rem;
+        }
+        #vmenu>div>a>i{
+            font-size: 25px;
+        }
+#vmenu{
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+ #do{
+  background-color: rgb(220, 173, 20);
+  color: white;
+ }
+ #od{
+  background-color: rgb(17, 191, 197);
+  color: aliceblue;
+ }
+  #ad{
+    background-color: crimson;
+    color: white;
+  }
+  #da{
+    background-color: rgb(33, 22, 180);
+    color: aliceblue;
+  }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Products</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <img src="https://placehold.co/1200x800" alt="">
+    </section>
+    <main>
+        <section>
+            <img src="https://placehold.co/400x200" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat possimus molestiae aut ipsum
+                odio provident rem rerum unde perferendis harum laboriosam quis, quisquam inventore cumque, totam
+                aspernatur maxime velit.</p>
+            <a href="#">Read More...</a>
+        </section>
+        <section>
+            <img src="https://placehold.co/400x200" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat possimus molestiae aut ipsum
+                odio provident rem rerum unde perferendis harum laboriosam quis, quisquam inventore cumque, totam
+                aspernatur maxime velit.</p>
+            <a href="#">Read More...</a>
+        </section>
+        <section>
+            <img src="https://placehold.co/400x200" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat possimus molestiae aut ipsum
+                odio provident rem rerum unde perferendis harum laboriosam quis, quisquam inventore cumque, totam
+                aspernatur maxime velit.</p>
+            <a href="#">Read More...</a>
+        </section>
+    </main>
+    <footer>
+        <p>powered By: Position</p>
+    </footer>
+    <div id="contact">
+        <a href="#"><i class="fa-solid fa-phone"></i></a>
+
+    </div>
+    <div id="top">
+        <a href=""><i class="fa-solid fa-angle-up"></i></a>
+
+    </div>
+
+    <section id="vmenu" >
+        <div><a href=""><i class="fa-brands fa-square-instagram" id="do"></i></a></div>
+
+        <div><a href=""><i class="fa-brands fa-telegram" id="od"></i></a></div>
+
+        <div><a href=""><i class="fa-brands fa-youtube" id=ad></i></a></div>
+
+        <div><a href=""><i class="fa-brands fa-facebook" id="da"></i></a></div>
+
+    </section>
+
+
+</body>
+
+</html>
